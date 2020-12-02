@@ -17,6 +17,8 @@ With the help of Early Termination policy, we can terminate poorly performing ru
 
 The best model obtained was saved.The accuracy obtained through Hyperdrive run is 0.907283.
 
+<img src = "Screenshots/hd3.jpg" alt ="Hyperdrive Run">
+
 
 ## AutoML
 
@@ -24,6 +26,7 @@ Automated Machine Learning, often referred to as AutoML is the process of automa
 
 The best model obtained through AutoML is VotingEnsemble. It had an accuracy of 0.91745.
 
+<img src ="Screenshots/auto4.jpg" alt="AutoML Run">
 
 ## Pipeline comparison
 
