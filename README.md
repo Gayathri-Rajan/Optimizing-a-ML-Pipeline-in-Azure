@@ -7,6 +7,8 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we bui
 
 The provided dataset is a Bank Marketing dataset. We have to predict whether a client subscribed a term deposit or not. The target column is 'y'. We were provided with a custom coded model-a sci-kit learn Logistic Regression. At first, the hyperparameters are tuned using the tool Hyperdrive. We save the best model obtained through this. Next, using Automated Machine Learning(AutoML) an optimal model is determined. We then compare both the results and find out which method gives better results. The best model was VotingEnsemble which gave an accuracy of 0.91745.
 
+<img src ="Screenshots/block_diagram.jpg" alt="Block Diagram"
+
 ## Scikit-learn Pipeline
 
 At first the train.py file was uploaded to the Notebooks in Azure. Then the Bank Marketing dataset was uploaded using the URL provided. The dataset is split into train(80%) and test(20%) data. After that, the Logistic Regression Model was used for training the dataset based on hyperparameters such as -c(Inverse of Regularization Strength) and -max_iter(Maximum number of iterations to converge).
@@ -49,3 +51,20 @@ Some of the imporvements that could be done are:
 ## Proof of cluster clean up
 
 <img src="Screenshots/delete cluster.jpg" alt="Deleting the cluster">
+
+## References
+
+[Tune Hyperparameters for your model with Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters)
+
+[HyperDriveRunConfig Class](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.hyperdriverunconfig?view=azure-ml-py)
+
+[What is Automated Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
+
+[Configure Automated ML Experiments in Azure](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train)
+
+[AutoMLConfig Class](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig.automlconfig?view=azure-ml-py)
+
+[Udacity Mentor Help](https://github.com/Azure/MachineLearningNotebooks/blob/a039166b901b90b6fa5a364c728aca7936e3789d/how-to-use-azureml/ml-frameworks/scikit-learn/train-hyperparameter-tune-deploy-with-sklearn/train-hyperparameter-tune-deploy-with-sklearn.ipynb)
+
+[Udacity Mentor Help](https://knowledge.udacity.com/questions/391409)
+
