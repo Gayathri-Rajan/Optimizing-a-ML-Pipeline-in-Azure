@@ -33,15 +33,16 @@ The accuracy obatined through hyperdrive run is 0.907283. Whereas, the accuracy 
 
 Some of the imporvements that could be done are:
 
-(a) We could improve the Parameter sample, so that more values of hyperparameters could be included.
+(a) We could improve the Parameter sampler, so that more values of hyperparameters could be included.
 
-(b)We could try using other Early Termination policy, or optimize the current one to get better results.
+(b) We could try using other Early Termination policy, or optimize the current one to get better results.
+
 (c) We could make sure that the data is cleaned more efficiently, or include more features. This would help us to analyse the data more.
-(d) For AutoML, we could change the number of cross validations and see if we get a better model or better accuracy.
-(e) 
 
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+(d) For AutoML, we could change the number of cross validations and see if we get a better model or better accuracy.
+
+(e) We could make use of other classification algorithms i hyperdrive run and understand the difference in the model behaviour.
 
 ## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
+
+<img src="Screenshots/delete cluster.JPG" alt="Deleting the cluster">
