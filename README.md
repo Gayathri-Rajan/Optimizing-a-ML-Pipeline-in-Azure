@@ -7,7 +7,7 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we bui
 
 The provided dataset is a Bank Marketing dataset. We have to predict whether a client subscribed a term deposit or not. The target column is 'y'. We were provided with a custom coded model-a sci-kit learn Logistic Regression. At first, the hyperparameters are tuned using the tool Hyperdrive. We save the best model obtained through this. Next, using Automated Machine Learning(AutoML) an optimal model is determined. We then compare both the results and find out which method gives better results. The best model was VotingEnsemble which gave an accuracy of 0.91745.
 
-<img src ="Screenshots/block_diagram.jpg" alt="Block Diagram"
+<img src = "Screenshots/block_diagram.jpg" alt = "Block Diagram">
 
 ## Scikit-learn Pipeline
 
