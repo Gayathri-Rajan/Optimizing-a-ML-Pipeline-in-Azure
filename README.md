@@ -45,4 +45,4 @@ Some of the imporvements that could be done are:
 
 ## Proof of cluster clean up
 
-<img src="Screenshots/delete_cluster.JPG" alt="Deleting the cluster">
+<img src="Screenshots/delete cluster.jpg" alt="Deleting the cluster">
