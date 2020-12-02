@@ -33,7 +33,8 @@ The accuracy obatined through hyperdrive run is 0.907283. Whereas, the accuracy 
 
 Some of the imporvements that could be done are:
 
-(a) We could improve the Parameter sample, so that more values of hyperparameters could be included
+(a) We could improve the Parameter sample, so that more values of hyperparameters could be included.
+
 (b)We could try using other Early Termination policy, or optimize the current one to get better results.
 (c) We could make sure that the data is cleaned more efficiently, or include more features. This would help us to analyse the data more.
 (d) For AutoML, we could change the number of cross validations and see if we get a better model or better accuracy.
