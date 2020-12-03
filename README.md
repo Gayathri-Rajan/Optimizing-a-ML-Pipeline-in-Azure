@@ -26,7 +26,7 @@ The best model obtained was saved.The accuracy obtained through Hyperdrive run i
 
 Automated Machine Learning, often referred to as AutoML is the process of automating the entire Machine Learning pipeline. The AutoMLConfig class is used specify paramters such as experiment_timeout_minutes(set as 30 min), task(classification),primary_metric(accuracy), training_data(df), label_column_name(y-whether cliemt makes term deposit or not), n_cross_validations(set as 5).
 
-The best model obtained through AutoML is VotingEnsemble. It had an accuracy of 0.91745.
+The best model obtained through AutoML is VotingEnsemble. It had an accuracy of 0.91745. The value of AUC weighted was 0.94779,recall_score_macro was 0.7689, precision_score_macro was 0.797713. The value of hyperparamaters for VotingEnsemble were max_iter = 1000, n_jobs =1, power_t = 0.222222, tol=0.0001. The weights were [0.14285714285714285, 0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285]
 
 <img src ="Screenshots/auto4.jpg" alt="AutoML Run">
 
