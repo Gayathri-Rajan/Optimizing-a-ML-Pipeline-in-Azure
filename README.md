@@ -21,7 +21,6 @@ The best model obtained was saved.The accuracy obtained through Hyperdrive run i
 
 <img src = "Screenshots/hd3.jpg" alt ="Hyperdrive Run">
 
-
 ## AutoML
 
 Automated Machine Learning, often referred to as AutoML is the process of automating the entire Machine Learning pipeline. The AutoMLConfig class is used specify paramters such as experiment_timeout_minutes(set as 30 min), task(classification),primary_metric(accuracy), training_data(df), label_column_name(y-whether cliemt makes term deposit or not), n_cross_validations(set as 5).
@@ -51,6 +50,7 @@ Some of the imporvements that could be done are:
 ## Proof of cluster clean up
 
 <img src="Screenshots/delete cluster.jpg" alt="Deleting the cluster">
+<img src="Screenshots/delete.jpg" alt="Deleting the cluster">
 
 ## References
 
